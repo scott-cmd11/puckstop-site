@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://scott-cmd11.github.io/puckstop-site/sitemap.xml
