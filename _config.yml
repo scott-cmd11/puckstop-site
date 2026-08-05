@@ -1,0 +1,4 @@
+# GitHub Pages serves the public site from this repository root. Keep the
+# project coordination ledgers versioned, but out of the generated site.
+exclude:
+  - tasks/

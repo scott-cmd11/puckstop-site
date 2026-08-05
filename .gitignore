@@ -1,0 +1,3 @@
+# Operational task ledgers stay in the private development workspace.
+/tasks/*
+!/tasks/README.html
