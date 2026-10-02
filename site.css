@@ -124,6 +124,11 @@ h1 span { color: var(--cyan); }
 .screen-card img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 1rem; background: #fff; box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.24); }
 .screen-card figcaption { padding: 0.9rem 0.2rem; color: var(--soft); font-size: 0.9rem; }
 .screen-card figcaption strong { display: block; margin-bottom: 0.25rem; color: var(--ink); }
+.video-card { margin: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 1rem; background: #02070e; box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.24); }
+.video-card video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #02070e; }
+.video-text { margin-top: 1rem; padding: 1rem 1.1rem; border: 1px solid var(--line); border-radius: 0.75rem; background: rgba(18, 39, 62, 0.5); }
+.video-text summary { cursor: pointer; font-weight: 750; }
+.video-text p { margin: 0.8rem 0 0; color: var(--soft); font-size: 0.95rem; }
 .step-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 0; padding: 0; list-style: none; counter-reset: steps; }
 .step-list li { position: relative; min-height: 10rem; padding: 1.35rem; border-top: 2px solid var(--cyan); background: linear-gradient(145deg, rgba(18, 41, 65, 0.86), rgba(18, 41, 65, 0.38)); counter-increment: steps; }
 .step-list li::before { content: counter(steps, decimal-leading-zero); display: block; margin-bottom: 1.3rem; color: var(--orange); font-size: 0.75rem; font-weight: 850; letter-spacing: 0.1em; }
